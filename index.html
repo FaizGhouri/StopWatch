@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="stopwatch">
+
+        <h2>
+            <hr> STOP WATCH
+            <hr>
+        </h2>
+
+
+        <div class="time">
+            <h1 id="min">00</h1>
+            <h1 id="sec">00</h1>
+            <h1 id="msec">00</h1>
+        </div>
+
+        <div>
+            <button class="start" id="startBtn" onclick="start()"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <button class="stop" onclick="stop()"><i class="fa fa-pause" aria-hidden="true"></i></button>
+            <button class="reset" onclick="reset()"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

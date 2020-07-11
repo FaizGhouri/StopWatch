@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+
+
+.stopwatch{
+    background-color: lightgray;
+    text-align: center;
+    height: 500px;
+    padding-top: 20px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 4px 20px 4px ;
+    
+}
+
+h1{
+    display: inline-block;
+    background-color: white;
+    width: 150px;
+    font-size: 4em;
+    border-radius: 50px;
+    box-shadow: 4px 2px 6px 2px;
+}
+
+
+h2{
+    font-style: italic;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+button{
+    width: 100px;
+    border: none;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 1px 2px 1px 1px;
+}
+
+
+.start:hover{
+    background-color: rgb(97, 205, 248);
+    color: ivory;
+}
+
+.stop:hover{
+    background-color: rgb(141, 65, 196);
+    color: ivory;
+}
+
+.reset:hover{
+    background-color: rgb(250, 99, 89);
+    color: ivory;
+}
+
+hr{
+    width: 400px;
+    height: 2px;
+    border: none;
+    background-color: black;
+}
+
+.start{
+    font-weight: bold;
+    outline: none;
+}
+
+
+.stop{
+    font-weight: bold;
+    outline: none;
+}
+
+
+.reset{
+    font-weight: bold;
+    outline: none;
+}
